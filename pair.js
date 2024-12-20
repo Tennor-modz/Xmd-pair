@@ -70,7 +70,7 @@ router.get('/', async (req, res) => {
 
                         const sid = string_session;
 
-  const dt = await XpbotsPair.sendMessage(XpbotsPair.user.id, { image: { url: "https://i.ibb.co/0tbxXc0/Xploader5.jpg" }, caption: `${sid}` }, { quoted: myr });
+  const dt = await XpbotsPair.sendMessage(XpbotsPair.user.id, { image: { url: "https://i.imgur.com/yZN5Ynv.jpeg" }, caption: `${sid}` }, { quoted: myr });
 
                     } catch (e) {
                         process.exit(1); 
